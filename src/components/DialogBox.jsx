@@ -46,7 +46,7 @@ export function DialogBox(props) {
             </DialogDescription>
           </DialogHeader>
 
-          <div className="grid gap-4">
+          <div className="grid gap-4 p-3">
             <div className="grid gap-3">
               <Label htmlFor="name-1">Title</Label>
               <Input
@@ -67,7 +67,7 @@ export function DialogBox(props) {
             </div>
           </div>
 
-          <DialogFooter>
+          <DialogFooter className="m-3">
             <DialogClose asChild>
               <Button variant="outline" type="button">
                 Cancel

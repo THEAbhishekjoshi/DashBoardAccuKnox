@@ -32,7 +32,7 @@ const AddWidget = () => {
         <Dropdown />
       </div>
       <div className='flex flex-rows items-center
-      text-[10px] 
+      text-[10px]
       rounded-[3px] 
       mr-3
       text-purple-900
@@ -43,7 +43,7 @@ const AddWidget = () => {
         </svg>
         |
         <select name="selectTime" id="timeSelector"
-          className=' h-5 w-[50px]'>
+          className=' h-6 w-[50px]'>
           <option value="2 days">2 days</option>
           <option value="5 days">5 days</option>
           <option value="7 days">7 days</option>

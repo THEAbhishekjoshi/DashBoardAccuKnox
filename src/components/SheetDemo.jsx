@@ -100,7 +100,7 @@ function WidgetList(props) {
 
 
   const handleChange = (e) => {
-    const idPart = e.target.id.split("")[1];  // checkbox-cspm-1
+    const idPart = e.target.id.split("_")[1];  // checkbox-cspm-1
     if (!e.target.checked) {
       // Add to confirmList
       props.setConfirmList([...props.confirmList, idPart]);
