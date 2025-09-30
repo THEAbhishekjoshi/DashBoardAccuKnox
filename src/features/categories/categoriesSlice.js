@@ -67,18 +67,28 @@ export const categoriesSlice = createSlice({
             const { categoryId, title, text } = action.payload;
             const category = state.categories.find(cat => cat.id === categoryId);
             if (!category) return;
+            if (category.widgets.length <= 0) {
+                category.widgets.push({
+                    id: categoryId.concat('1'),
+                    name: title,
+                    text
+                })
+            }
+            else {
+                const lastWidget = category.widgets[category.widgets.length - 1];
+                const str1 = lastWidget.id.split("-");
+                str1[1] = parseInt(str1[1]) + 1;
+                const newId = str1.join("-");
 
-            const lastWidget = category.widgets[category.widgets.length - 1];
-            const str1 = lastWidget.id.split("-");  
-            str1[1] = parseInt(str1[1]) + 1;        
-            const newId = str1.join("-");
+                category.widgets.push({
+                    id: newId,
+                    name: title,
+                    text
+                })
 
-            category.widgets.push({
-                id:newId,
-                name:title,
-                text
-            })
-            console.log("show me:",category.widgets)
+            }
+
+            //console.log("show me:",category.widgets)
         },
         removeWidget: (state, action) => {
             const idsToRemove = action.payload;
