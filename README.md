@@ -1,47 +1,57 @@
-React + Vite
+🚀 AccuKnox Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite project providing a clean and interactive dashboard for AccuKnox.
+Built with Vite for fast development and Hot Module Replacement (HMR), with ESLint rules for better code quality.
 
-Currently, two official plugins are available:
+⚡ Features
 
-@vitejs/plugin-react
- uses Babel
- for Fast Refresh
+Minimal and fast React + Vite setup
 
-@vitejs/plugin-react-swc
- uses SWC
- for Fast Refresh
+Hot Module Replacement (HMR) for fast development
 
-Expanding the ESLint configuration
+ESLint configured for cleaner code
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the TS template
- for information on how to integrate TypeScript and typescript-eslint
- in your project.
+Easy to extend with additional plugins or components
 
-🛠️ Running the Dashboard Locally
+📦 Prerequisites
 
-To set up and run the AccuKnox Dashboard on your local machine, follow these steps:
+Before running the project, make sure you have the following installed:
 
-1. Clone the Repository
+Node.js
+ (LTS version recommended)
 
-Open your terminal and run:
+npm (comes with Node.js)
 
+🛠️ Running Locally
+
+Follow these steps to set up the dashboard on your machine:
+
+1️⃣ Clone the Repository
 git clone https://github.com/THEAbhishekjoshi/DashBoardAccuKnox.git
 cd DashBoardAccuKnox
 
-2. Install Dependencies
-
-Ensure you have Node.js
- installed (preferably the latest LTS version). Then, install the required packages:
-
+2️⃣ Install Dependencies
 npm install
 
-3. Start the Development Server
-
-Launch the application locally:
-
+3️⃣ Start the Development Server
 npm run dev
 
 
-The dashboard should now be accessible at http://localhost:5173
-.
+Open your browser and go to: http://localhost:5173
+
+The dashboard should now be running locally with live reload enabled.
+
+⚙️ Production Build
+
+To create an optimized production build:
+
+npm run build
+
+
+The build output will be in the dist/ folder, ready to deploy.
+
+🔗 Useful Links
+
+Vite Official Docs
+
+React Official Docs
