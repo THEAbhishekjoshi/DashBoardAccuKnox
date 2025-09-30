@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "id": "cspm",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "w1",
+          "name": "Cloud Accounts",
+          "text": "Shows number of connected and not connected accounts."
+        },
+        {
+          "id": "w2",
+          "name": "Cloud Risk Assessment",
+          "text": "Displays overall cloud account risk posture."
+        }
+      ]
+    },
+    {
+      "id": "cwpp",
+      "name": "CWPP Dashboard",
+      "widgets": [
+        {
+          "id": "w3",
+          "name": "Top 5 Namespace Alerts",
+          "text": "Shows top alerts for Kubernetes namespaces."
+        },
+        {
+          "id": "w4",
+          "name": "Workload Alerts",
+          "text": "Displays alerts related to workloads."
+        }
+      ]
+    },
+    {
+      "id": "registry",
+      "name": "Registry Scan",
+      "widgets": [
+        {
+          "id": "w5",
+          "name": "Image Risk Assessment",
+          "text": "Total vulnerabilities found in scanned images."
+        },
+        {
+          "id": "w6",
+          "name": "Image Security Issues",
+          "text": "Lists security issues in container images."
+        }
+      ]
+    }
+  ]
+}
