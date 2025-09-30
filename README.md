@@ -1,12 +1,57 @@
-# React + Vite
+🚀 AccuKnox Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite project providing a clean and interactive dashboard for AccuKnox.
+Built with Vite for fast development and Hot Module Replacement (HMR), with ESLint rules for better code quality.
 
-Currently, two official plugins are available:
+⚡ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Minimal and fast React + Vite setup
 
-## Expanding the ESLint configuration
+Hot Module Replacement (HMR) for fast development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ESLint configured for cleaner code
+
+Easy to extend with additional plugins or components
+
+📦 Prerequisites
+
+Before running the project, make sure you have the following installed:
+
+Node.js
+ (LTS version recommended)
+
+npm (comes with Node.js)
+
+🛠️ Running Locally
+
+Follow these steps to set up the dashboard on your machine:
+
+1️⃣ Clone the Repository
+git clone https://github.com/THEAbhishekjoshi/DashBoardAccuKnox.git
+cd DashBoardAccuKnox
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Start the Development Server
+npm run dev
+
+
+Open your browser and go to: http://localhost:5173
+
+The dashboard should now be running locally with live reload enabled.
+
+⚙️ Production Build
+
+To create an optimized production build:
+
+npm run build
+
+
+The build output will be in the dist/ folder, ready to deploy.
+
+🔗 Useful Links
+
+Vite Official Docs
+
+React Official Docs
