@@ -2,7 +2,7 @@ import { categorySelector } from '@/features/categories/categoriesSlice'
 import React from 'react'
 import { useSelector } from 'react-redux';
 import { Button } from './ui/button';
-import { DialogBox } from './dialogBox';
+import { DialogBox } from './DialogBox';
 
 const WidgetCard = () => {
   const dashboardData = useSelector(categorySelector);
